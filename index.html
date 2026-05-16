@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>🎬 MovieFinder</h1>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Cari siri TV atau filem...">
+      <button id="searchBtn">Cari</button>
+    </div>
+
+    <!-- Cadangan carian -->
+     <h4>Cadangan:</h4>
+    <div class="suggestions">
+      <span onclick="quickSearch('catwoman')">Catwoman</span>
+      <span onclick="quickSearch('batman')">Batman</span>
+      <span onclick="quickSearch('spiderman')">Spiderman</span>
+      <span onclick="quickSearch('avengers')">Avengers</span>
+      <span onclick="quickSearch('stranger things')">Stranger Things</span>
+    </div>
+
+    <p id="resultText"></p>
+    
+    <p id="loading"></p>
+
+    <div id="movieContainer" class="movie-container"></div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
