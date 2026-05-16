@@ -39,7 +39,7 @@ h1{
 .search-box button{
   padding:10px 20px;
   border:none;
-  background:#1BE3E3;
+  background: green;
   color:#000000;
   border-radius:8px;
   cursor:pointer;
