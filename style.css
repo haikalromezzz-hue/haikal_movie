@@ -6,9 +6,10 @@
 }
 
 body{
-  background:#000000;
+  background:#f0f0f0;
   padding:30px;
-  color: #ccc;
+  color: #333;
+  text-align: center;
 }
 
 .container{
